@@ -1,0 +1,19 @@
+{
+    "name": "hersonpc/service-store-banco-indicadores",
+    "description": "Serviço de Store para o Banco de Indicadores Hospitalares",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Herson Melo",
+            "email": "hersonpc@gmail.com"
+        }
+    ],
+    "require": {
+        "stomp-php/stomp-php": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "source/app/"
+        }
+    }
+}
